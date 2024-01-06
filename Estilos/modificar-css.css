@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url("../imagenes/imagen-del-login.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    color: white;
+}
+
+h1{
+    font-size: 30px;
+    font-family: Copperplate Gothic;
+    margin-top: 10px;
+    text-align: center !important;
+}
+
+.cerrar{
+    position: absolute;
+    margin-left: 93%;
+    margin-top: -53px;
+}
+
+.cerrar-sesion{
+    position: absolute;
+    width: 50px;
+    margin: 30px 0;
+    padding: 2px;
+    background: transparent;
+    border-radius: 40px;
+    border: 1px solid white;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+.cerrar-sesion a{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.cerrar-sesion:hover{
+    background: rgba(255, 255, 255, 0.527);
+    color: black;
+    transition: .5s;
+}
+
+nav{
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 20px;
+    right: 100px;
+    font-size: 20px;
+
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+nav ul{
+    list-style: none;
+}
+
+ul > li{
+    position: relative;
+}
+
+ul > li > a:hover{
+    background: rgba(12, 11, 11, 0.473);
+    padding: 10px;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    color: rgb(163, 159, 157);
+    transition: all.5s;
+}
+
+.submenu{
+    color: black;
+    width: 105%;
+    display: none;
+}
+
+.submenu li a{
+    display: block;
+    padding: 15px;
+}
+
+ul li:hover .submenu{
+    display: block;
+    transition: all.3s;
+}
+
+.titulo-uno{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7%;
+    margin-left: 25%;
+    font-size: 20px;
+    font-family: sans-serif;
+    background: rgba(12, 11, 11, 0.473);
+    width: 50%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.Tabla-de-inmuebles{
+    position: absolute;
+    margin-left: 23%;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: sans-serif;
+    background: rgba(12, 11, 11, 0.473);
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+th{
+    padding: 20px;
+
+}
+
+td{
+    padding: 10px;
+}
+
+
+.modificar{
+    position: absolute;
+    margin-left: 90%;
+    margin-top: 170px;
+}
+
+.modificar-boton{
+    position: absolute;
+    width: 80px;
+    margin: 30px 0;
+    padding: 2px;
+    background: transparent;
+    border-radius: 40px;
+    border: 1px solid white;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+.modificar-boton a{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.modificar-boton:hover{
+    background: rgba(255, 255, 255, 0.527);
+    color: black;
+    transition: .5s;
+}
+
+.actualizar{
+    position: absolute;
+    margin-left: 88%;
+    margin-top: 190px;
+}
+
+.actualizar-boton{
+    position: absolute;
+    width: 80px;
+    margin: 30px 0;
+    padding: 2px;
+    background: transparent;
+    border-radius: 40px;
+    border: 1px solid white;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+.actualizar-boton a{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.actualizar-boton:hover{
+    background: rgba(255, 255, 255, 0.527);
+    color: black;
+    transition: .5s;
+}
+
+.footer{
+    width: 100%;
+    height: 30px;
+    background-color:rgba(8, 7, 7, 0.2);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30%;
+}

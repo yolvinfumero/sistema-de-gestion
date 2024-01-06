@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url("../imagenes/imagen-del-login.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    color: white;
+}
+
+h1{
+    font-size: 30px;
+    font-family: Copperplate Gothic;
+    margin-top: 10px;
+    text-align: center !important;
+}
+
+.cerrar{
+    position: absolute;
+    margin-left: 93%;
+    margin-top: -53px;
+}
+
+.cerrar-sesion{
+    position: absolute;
+    width: 50px;
+    margin: 30px 0;
+    padding: 2px;
+    background: transparent;
+    border-radius: 40px;
+    border: 1px solid white;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+.cerrar-sesion a{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.cerrar-sesion:hover{
+    background: rgba(255, 255, 255, 0.527);
+    color: black;
+    transition: .5s;
+}
+
+nav{
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 20px;
+    right: 100px;
+    font-size: 20px;
+
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+nav ul{
+    list-style: none;
+}
+
+ul > li{
+    position: relative;
+}
+
+ul > li > a:hover{
+    background: rgba(12, 11, 11, 0.473);
+    padding: 10px;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    color: rgb(163, 159, 157);
+    transition: all.5s;
+}
+
+.submenu{
+    color: black;
+    width: 105%;
+    display: none;
+}
+
+.submenu li a{
+    display: block;
+    padding: 15px;
+}
+
+ul li:hover .submenu{
+    display: block;
+    transition: all.3s;
+}
+
+.titulo-uno{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7%;
+    margin-left: 25%;
+    font-size: 20px;
+    font-family: sans-serif;
+    background: rgba(12, 11, 11, 0.473);
+    width: 50%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.contenedor{
+    position: absolute;
+    width: 20%;
+    border-radius: 20px;
+    margin-left: 10%;
+    margin-top: 25px;
+    -webkit-backdrop-filter: blur(30px);
+    backdrop-filter: blur(30px);
+    background-color:rgba(8, 7, 7, 0.2);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    color: white;
+}
+
+.secciones-ingenieria-de-sistemas{
+    width: 53%;
+}
+
+.secciones-ingenieria-de-sistemas ul{
+    list-style: none;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.secciones-ingenieria-de-sistemas li button{
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.secciones-ingenieria-de-sistemas li{
+    margin: 5px;
+}
+
+.secciones-ingenieria-de-sistemas button{
+    padding: 3px;
+    background: rgba(12, 11, 11, 0.473);
+    border-radius: 20px;
+}
+
+.secciones-ingenieria-de-sistemas-segundo-div{
+    width: 55%;
+    color: white;
+}
+
+.secciones-ingenieria-de-sistemas-segundo-div ul{
+    list-style: none;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.secciones-ingenieria-de-sistemas-segundo-div li button{
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.secciones-ingenieria-de-sistemas-segundo-div li{
+    margin: 5px;
+}
+
+.secciones-ingenieria-de-sistemas-segundo-div button{
+    padding: 3px;
+    background: rgba(12, 11, 11, 0.473);
+    border-radius: 20px;
+}
+
+.footer{
+    width: 100%;
+    height: 30px;
+    background-color:rgba(8, 7, 7, 0.2);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30%;
+}
